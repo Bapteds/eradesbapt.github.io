@@ -1,5 +1,6 @@
 # Portofolio de Baptiste ERADES, étudiant en BTS SIO
 ## Objectifs principaux :
+![Images](https://i.ibb.co/V3zQxnF/Capture.png)
 ### 1. Utiliser les meilleurs outils 👍 :
 >Pour façonner mon site web :
   - **NetBeans** : C'est un IDE, il est utilisé pour faire mes projets.
