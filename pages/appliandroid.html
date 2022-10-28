@@ -1,17 +1,117 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        <meta name="description" content="Portofolio d'Erades Baptiste BTS SIO-SLAM">
+        <meta name="author" content="Erades Baptiste">
+        <link rel="icon" href="Fichiers/favicon.ico">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link href="../css/realisations.css" rel="stylesheet">
-        <title>Hello, world!</title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../Fichiers/css/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link href="../Fichiers/css/cv.css" rel="stylesheet" type="text/css"/>
+        <title>Portofolio de Baptiste Erades</title>
     </head>
     <body>
-        
+        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+            <div class="container">
+                <button type="button" class="navbar-toggler" data-toggle="colapse"
+                        data-target="#navbar" aria-controls="navbar">
+                    <span class="sr-only">Navigation raccourcie</span>☰
+                </button>
+                <a class="navbar-brand" href="#">Mon portofolio</a>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">
+                                <span class="fa fa-home"></span>Accueil <!-- Le "fa-home" permet d'ajouter une icon de maison, on peut les trouver dans la doc de bootstrap -->
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cv.html" class="nav-link">
+                                <span class="fa fa-id-badge"></span> CV
+                            </a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="#" class="active dropdown-toggle nav-link"
+                               data-toggle="dropdown" role="button">
+                                <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span><!<!-- Si ca commence par fa c'est une icone. Ici caret, permet d'afficher une petite flêche -->
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header dropdown-item"> <!-- Ici le header permet d'indiquer que c'est un titre -->
+                                    En autonomie</li>
+                                <li role="presentation" class="dropdown-item"> 
+                                    <a role="menuitem" href="#">Site-web</a> <!-- Ici c'est un titre qui me revoit sur une page, d'ou le href -->
+                                </li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="appliandroid.html">Scripts</a>
+                                </li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Études et analyses</a>
+                                </li>
+                                <li role="presentation" class="dropdown-divider"></li>
+                                <li role="presentation" class="dropdown-header dropdown-item">
+                                    En entreprise</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Projet de 1ère année</a>
+                                </li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Projet de 2ème année</a>
+                                </li>
+                            </ul>
+                        </li> 
+                        <li class="dropdown nav-item">
+                            <a href="#" class="dropdown-toggle nav-link"
+                               data-toggle="dropdown" role="button">
+                                <span class="fa fa-graduation-cap"></span>
+                                -E5 BTS SIO-
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="dropdown-header dropdown-item" role="presentation">
+                                    Documentations contexte</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Présentation</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Application</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Missions à réaliser</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Annexes</a></li>
+                                <li role="presentation" class="dropdown-divider"></li>
+                                <li role="presentation" class="dropdown-header dropdown-item">
+                                    Fiches d'examen</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Situation professionnelle n°1</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Situation professionnelle n°2</a></li>
+                                <li role="presentation" class="dropdown-divider"></li>
+                                <li role="presentation" class="dropdown-header dropdown-item">
+                                    Démonstrations</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Démo SP n°1</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Démo SP n°2</a></li>
+                                <li role="presentation" class="dropdown-divider"></li>
+                                <li role="presentation" class="dropdown-header dropdown-item">
+                                    Codes sources</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Sources SP n°1</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Sources SP n°2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><span class="fa fa-envelope"></span>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <section class="jumbotron text-center">
             <div class="container">
                 <h1 class="jumbotron-heading">Programmation sous Android</h1>
@@ -46,13 +146,65 @@
                         <div class="card mb-4 shadow-sm">
                             <img class="card-img-top" src="../Fichiers/images/adapters.png" alt="Adapters">
                             <div class="card-body">
-                                <p class="card-text">Affichage des listes sur mobiles (Adapters)</p>
+                                <p class="card-text">Affichage des listes sur mobiles (adapters)</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+
+        <footer>
+            <div class="container">
+                <div class="row"><!-- Permet de créer une class, qui permet de ranger des information sous forme de colonne -->
+                    <div class="col-lg-4"><!-- Ici, c'est les paramètres de ma colonne : col-> Colonne lg-> Largeur-<size> -->
+                        <h2>Lorem Ipsum </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                            . It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p><a class="btn btn-secondary" href="" target="_blank"><!-- C'est grâce à se genre de commande que nous pouvons importer des boutton. Tous les types sont disponible sur la doc. -->
+                                role="button">En savoir plus »</a><!-- Ici c'est pour créer un autre type de boutton avec lien.  -->
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                            . It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p><a class="btn btn-secondary" href=""
+                              target="_blank" role="button">En savoir plus »</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                            . It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p><a class="btn btn-secondary" href=""
+                              role="button">En savoir plus »</a>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-center" id="copyright">© Amélia Pilou 2021</p><!-- Ici c'est la manière de créer une sorte de pied de page avec les crédits (copyright) -->
+            </div>
+        </footer> .
+
+
+
+
 
 
 
